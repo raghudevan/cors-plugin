@@ -1,0 +1,70 @@
+@import '~antd/dist/antd.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+  max-width: 350px;
+  min-width: 350px;
+  margin: auto;
+  border: 1px solid rgb(68, 68, 68, 0.2);
+}
+
+.title {
+  background-color: rgb(68, 68, 68);
+  text-align: center;
+  color: #fff;
+}
+
+.enable-cors {
+  padding: 5px 10px;
+}
+
+.access-control-expose-headers {
+  padding: 5px 10px;
+}
+
+.access-control-expose-headers input {
+  max-width: 280px;
+}
+
+.cors-list .ant-list-item-content {
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.match-patters-link {
+  cursor: pointer;
+  color: #1890ff;
+  margin-left: 5px;
+}
+
+.anticon {
+  cursor: pointer;
+}
+
+/* common */
+.full-width {
+  width: 100%;
+}
+
+.flex-row,
+.flex-row-space-between {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex-row-space-between {
+  justify-content: space-between;
+}
+
+.m-l-5 {
+  margin-left: 5px;
+}
