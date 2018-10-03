@@ -3,14 +3,21 @@
 * Found that there was no equivalent of [Allow-Control-Allow-Origin:*](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi) for Firefox and so this project exists
 * This add-on is quite similar to [vitvad's Access-Control-Allow-Origin](https://github.com/vitvad/Access-Control-Allow-Origin) chrome plugin and infact borrows heavily from their source code viz. `background.js`
 
+# Using the addon
+* The addon is available for free use over at https://addons.mozilla.org/en-US/firefox/addon/cors-plugin/
+
+# Found a bug?
+* Please file a [new issue](https://github.com/raghudevan/cors-plugin/issues/new) with as many details as you can provide for someone other than yourself to try and identify/reproduce it. 
+* I won't make any promises on how and when i'll get to it if ever. If you're a developer, feel free to raise a PR :)
+
 # Development
 
-# Pre-requisites
+## Pre-requisites
 
 * node version 8.9.3
 * yarn version 1.6.0
 
-# Getting started
+## Getting started
 
 1. Install dependencies
 
@@ -50,3 +57,5 @@ yarn build
 
 ![debug-add-on](docs/debug-add-on.png?raw=true "Debug Add-on")
 
+# License
+* MIT/X11 License
